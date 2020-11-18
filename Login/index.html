@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Chat</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="focus()">
+  <nav>
+    <a href="../Login/index.html">Login</a>
+    <a href="../Chat/index.html">Chat</a>
+    <a href="../Konversi/index.html">Kurs</a>
+    <a href="../Form/index.html">Form</a>
+    <a href="../Image/index.html">Image</a>
+  </nav>
+  <fieldset id="area" class="area">
+    <legend>
+      <div class="box">
+        Login
+      </div>
+    </legend>
+    <div class="bottom">
+      <form action="#">
+        <label>Username</label>
+        <input type="text" placeholder="admin" id="username">
+        <label>Password</label>
+        <input type="password" placeholder="admin" id="password">
+        <input type="submit" class="btn" id="btn" onclick="login()" onmousemove="move()" onmouseleave="lave()">
+      </form>
+    </div>  
+  </fieldset>
+</body>
+<script src="script.js"></script>
+</html>

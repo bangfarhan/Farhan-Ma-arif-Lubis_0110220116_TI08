@@ -1,0 +1,32 @@
+html, body{
+    height              : 100%;
+    width               : 100%;
+}
+.box{
+    margin              : 20px auto;
+    text-align          : center;
+    width               : 20%;
+    border-style        : inset;
+    box-shadow          : 1px 4px 8px black;
+    padding             : 10px;
+    border-radius       : 15px;
+}
+select{
+    background-color    : white;
+    color               : black;
+    width               : 100%;
+    margin-top          : 10px;
+    height              : 40px;
+    border-radius       : 25px;
+    outline             : none;
+}
+img{
+    box-shadow          : 1px 4px 8px black;
+    border-radius       : 20px;
+    width               : 100%;
+}
+.image{
+    background          : transparent;
+    margin              : 30px auto;
+    width               : 50%;
+}

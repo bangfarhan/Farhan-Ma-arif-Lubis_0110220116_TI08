@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="focus()">
+    <nav>
+        <a href="../Login/index.html">Login</a>
+        <a href="../Chat/index.html">Chat</a>
+        <a href="../Konversi/index.html">Kurs</a>
+        <a href="../Form/index.html">Form</a>
+        <a href="../Image/index.html">Image</a>
+      </nav>
+    <fieldset>
+        <legend>
+            <div class="box">
+                Form Validation
+            </div>
+        </legend>
+        <div class="group">
+            <div id="nam" class="nam float"></div>
+            <input type="text" id="name" max="30" required placeholder="name..">
+        </div>
+        <div class="group">
+            <div id="ema" class="ema float"></div>
+            <input type="email" id="email" required placeholder="email..">
+        </div>
+        <label>Time</label>
+        <div class="group">    
+            <div id="tim" class="tim float"></div>
+            <input type="time" id="time" required>
+        </div>
+        <div class="group">
+            <div id="des" class="des float"></div>
+            <input type="text" id="destination" required placeholder="destination..">
+        </div>
+        <div class="group">
+            <label>Ticket</label>
+            <br>
+        </div>
+        <div class="group">
+            <div id="tic" class="tic float"></div>
+            <select id="ticket" required>
+                <option value="1" selected>1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <br>
+        <div class="row">
+            <button type="submit" id="btn" onclick="validation()">SUBMIT</button>
+        </div>
+    </fieldset>
+    <div class = "data">
+        <h3 id="name1">Name : </h3>
+        <h3 id="email1">Email : </h3>
+        <h3 id="time1">TIme : </h3>
+        <h3 id="destination1">Destination : </h3>
+        <h3 id="ticket1">Ticket : </h3>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>

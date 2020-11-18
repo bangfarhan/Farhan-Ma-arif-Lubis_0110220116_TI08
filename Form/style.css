@@ -1,0 +1,75 @@
+html, body{
+    width               : 100%;
+    background-color    : darkcyan;
+}
+form{
+    width               : 100%;
+}
+legend{
+    color               : white;
+    text-align          : center;
+    font-size           : x-large;
+}
+fieldset{
+    margin              : 50px auto;
+    width               : 30%;
+    padding             : 30px;
+    border-radius       : 20px;
+    box-shadow          : 2px 3px 10px black;
+}
+input{
+    color               : darkcyan;
+    text-align          : center;
+    border              : none;
+    outline             : none;
+    background-color    : white;
+    margin-bottom       : 10px;
+    width               : 95%;
+    height              : 40px;
+    border-radius       : 25px;
+    right               : 0;
+}
+label{
+    color               : white;
+}
+select{
+    text-align          : center;
+    width               : 95%;
+    color               : darkcyan;
+    border              : none;
+    outline             : none;
+    background-color    : white;
+    margin-bottom       : 10px;
+    height              : 40px;
+    border-radius       : 25px;
+    text-align-last     : center;
+}
+option{
+    text-align-last     : center;
+}
+.row{
+    width               : 100%;
+    text-align          : center;
+}
+button{
+    width               : 30%;
+    border-radius       : 5px;
+    border-color        : darkcyan;
+}
+.data{
+    width               : 30%;
+    margin              : 20px auto;
+    color               : white;
+}
+.group{
+    width               : 100%;
+    float               : right;
+}
+.float{
+    color               : red;
+    width               : 3%;
+    height              : 40px;
+}
+.float, input{
+    float               : left;
+}
