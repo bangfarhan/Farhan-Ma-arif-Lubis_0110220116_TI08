@@ -18,7 +18,7 @@
     <div class="form-row">
       <div class="form-group col-md-6">
         <label>Mata Uang Asal</label>
-        <select id="matauang2" class="form-control"> 
+        <select id="matauang2" onchange="convert()" class="form-control"> 
           <option selected="selected" value="1">Indonesia - Rupiah</option>
           <option value="9915">Dollar US</option>
           <option value="13472">Dollar Singapore</option>
@@ -52,8 +52,6 @@
         <textarea id="textarea" readonly class="form-control"></textarea>
       </div>
     </div>
-
-    <button type="submit" class="btn btn-success" id="btn" onclick="convert()">Hitung</button>
   </div>
   
 </body>
